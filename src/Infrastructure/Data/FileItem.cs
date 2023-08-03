@@ -8,4 +8,9 @@ public class FileItem
     public string? Ext { get; set; }
     public string? Type { get; set; }
     public string? DataBase64 { get; set; }
+
+
+
+
+
 }

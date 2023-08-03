@@ -35,6 +35,9 @@ public static class Dependencies
             // Add Identity DbContext
             services.AddDbContext<AppIdentityDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("IdentityConnection")));
+
+
+
         }
     }
 }
