@@ -22,5 +22,5 @@ public class AppIdentityDbContext : IdentityDbContext<ApplicationUser>
 
 
 
-    // DbContext cmmnet line
+    // DbContext comment line
 }
