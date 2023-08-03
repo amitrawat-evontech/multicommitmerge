@@ -20,4 +20,9 @@ public class LoggerAdapter<T> : IAppLogger<T>
     {
         _logger.LogInformation(message, args);
     }
+
+    public void LogInformation2(string message, params object[] args)
+    {
+        _logger.LogInformation(message, args);
+    }
 }
